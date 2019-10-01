@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>离 | Lingr7</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://lingr7.github.io/"/>
+  <updated>2019-10-01T05:04:21.896Z</updated>
+  <id>https://lingr7.github.io/</id>
+  
+  <author>
+    <name>丨Lingr7丨</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Device-Free Gesture Tracking Using Acoustic Signals</title>
+    <link href="https://lingr7.github.io/2019/10/01/test.html"/>
+    <id>https://lingr7.github.io/2019/10/01/test.html</id>
+    <published>2019-10-01T04:05:43.000Z</published>
+    <updated>2019-10-01T05:04:21.896Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Device-Free Gesture Tracking Using Acoustic Signals&lt;/p&gt;
+&lt;div class=&quot;pdf&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="测试" scheme="https://lingr7.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="测试" scheme="https://lingr7.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://lingr7.github.io/2019/09/30/hello-world.html"/>
+    <id>https://lingr7.github.io/2019/09/30/hello-world.html</id>
+    <published>2019-09-30T12:33:02.270Z</published>
+    <updated>2019-09-30T12:33:02.270Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
