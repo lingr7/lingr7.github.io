@@ -121,7 +121,7 @@ cache-base@^1.0.1:
     get-value "^2.0.6"
     has-value "^1.0.0"
     isobject "^3.0.1"
-    set-value "^2.0.0"
+    set-value "^2.0.1"
     to-object-path "^0.3.0"
     union-value "^1.0.0"
     unset-value "^1.0.0"
@@ -319,7 +319,7 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
-extend@^3.0.0:
+extend@^3.0.1:
   version "3.0.1"
   resolved "http://registry.npm.taobao.org/extend/download/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
 
@@ -531,7 +531,7 @@ gulp-uglify@^3.0.0:
   dependencies:
     gulplog "^1.0.0"
     has-gulplog "^0.1.0"
-    lodash "^4.13.1"
+    lodash "^4.17.13"
     make-error-cause "^1.1.1"
     through2 "^2.0.0"
     uglify-js "^3.0.5"
