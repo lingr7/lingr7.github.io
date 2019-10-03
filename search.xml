@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title></title>
+    <url>%2F2019%2F10%2F03%2Fhexo%2Bnext%E5%85%AC%E5%BC%8F%E6%94%AF%E6%8C%81---%E9%87%87%E7%94%A8Katex.html</url>
+    <content type="text"><![CDATA[hexo+next公式支持—采用Katex 网上使用的种种教程，都是使用mathjax实现的，但是我按部就班的操作，就是无效。 于是尝试使用Katex。 参考next主题官方文档的内容：Math Equations | NexT 安装必要的插件 12$ npm un hexo-renderer-marked --save$ npm i hexo-renderer-markdown-it-plus --save # or hexo-renderer-markdown-it 在主题配置文件里设置 12345678910111213141516171819202122next/_config.yml# Math Formulas Render Supportmath: enable: true # Default (true) will load mathjax / katex script on demand. # That is it only render those page which has `mathjax: true` in Front-matter. # If you set it to false, it will load mathjax / katex srcipt EVERY PAGE. per_page: true #如果这个选项是false，那么每一个网页都会引入公式渲染，这是很浪费的，只需要在需要公式渲染功能的博文md文件的头部，添加一行`mathjax: true`(使用Katex引擎渲染也是在文件头部标记`mathjax: true`，表示支持公式) engine: Katex #engine: mathjax # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support. mathjax: enable: false # See: https://mhchem.github.io/MathJax-mhchem/ mhchem: false # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) required for full Katex support. katex: enable: true # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex copy_tex: false 生成网页，运行网站，发布网站 12$ hexo clean &amp;&amp; hexo g -d# or hexo clean &amp;&amp; hexo s 要注意的是，使用Katex引擎渲染，在输入公式时有一些限制。 我平时使用的markdown编辑器是Typora,在打开了Typora内联公式支持时，基本上，本地编辑器所见和网站渲染的结果基本上是一致的。 显示的数学公式（即$$ ... $$）在开始的$$前方和结束的$$后方（注释＃32），不得有任何字符（空格除外）。 1$$1 + 1 = 2$$ 1+1=21 + 1 = 2 1+1=2 不支持Unicode（注释32）。 内联公式（… $ … ）开头）开头）开头之后和结尾$之前必须没有空格（注释＃32）。 1$a \ne 0$ a≠0a \ne 0a​=0 如果在标题中使用数学公式（即##标题）。 然后在相应的目录项中，它将显示相关的LaTex代码3次（注释＃32）。 如果在标题中使用数学公式，则它将不会呈现。]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>%2F2019%2F10%2F03%2F%E5%9C%A8%E5%8F%A6%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E6%89%93%E5%BC%80%E5%A4%87%E4%BB%BD%E7%9A%84hexo%E5%8D%9A%E5%AE%A2%E9%9D%99%E6%80%81%E6%BA%90%E6%96%87%E4%BB%B6.html</url>
+    <content type="text"><![CDATA[在另一台电脑上打开备份的hexo博客静态源文件 前置知识 搭建博客 hexo 使用 next 主题、备份 hexo 源文件的参考资料 | 离 | Lingr7 安装node.js 安装git，如果官网下载慢，可以前往这个维护镜像的网址，waylau/git-for-win: Git for Windows. 并完成基本设置，邮箱和用户名。 取得项目部署公钥，参考网址配置 SSH 公钥访问代码仓库 – 腾讯云开发者平台帮助中心 通过ssh或https协议，拉取仓库到本地。 安装后，检测Node.js是否安装成功，在命令行中输入node -v ​ 检测npm是否安装成功，在命令行中输入npm -v 在新打开的Git Bash（hexo博客文件夹）里如下操作以使用淘宝镜像 你可以使用我们定制的 cnpm (gzip 压缩支持) 命令行工具代替默认的 npm: $ npm install -g cnpm --registry=https://registry.npm.taobao.org 然后是安装hexo 1$ cnpm install -g hexo-cli 由于是拉取已经建好的仓库，所以略去hexo init，直接进行npm install，目录下，出现了新的文件夹node_modules，成功 9.接下来运行$ hexo g生成网页，$ hexo s运行网站 ，在http://localhost:4000/打开本地网站]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F10%2F02%2Fhello-world.html</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick Start Create a new post 1$ hexo new "My New Post" More info: Writing Run server 1$ hexo server More info: Server Generate static files 1$ hexo generate More info: Generating Deploy to remote sites 1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[theme-hexo-pdf使用技巧----解决hexo-pdf文件显示不全的问题]]></title>
+    <url>%2F2019%2F10%2F02%2Ftheme-hexo-pdf%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7-%E8%A7%A3%E5%86%B3hexo-pdf%E6%96%87%E4%BB%B6%E6%98%BE%E7%A4%BA%E4%B8%8D%E5%85%A8%E7%9A%84%E9%97%AE%E9%A2%98.html</url>
+    <content type="text"><![CDATA[首先，是我的问题。 hexo添加pdf出现了这种问题，pdf显示不全，height不够大，还出现了双重滚动条。 其次，是我解决问题的方法。 开启pdf功能，参考superalsrk/hexo-pdf: Hexo tag for embeded pdf 保证主题配置文件中，相关内容为 123456789pdf: enable: true # Default height height: 500px pdfobject: # Use 2.1.1 as default, jsdelivr as default CDN, works everywhere even in China cdn: //cdn.jsdelivr.net/npm/pdfobject@2.1.1/pdfobject.min.js # CDNJS, provided by cloudflare, maybe the best CDN, but not works in China #cdn: //cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js 打开theme文件夹\source\css\_common\components\tags\pdf.styl修改内容为 1234567.pdfobject-container &#123; position: relative; overflow: auto; width: 100%; // height: unquote(hexo-config('pdf.height')); height: 100%;&#125; 即可 最后，给出实现的样例。 网址一 网址二]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[搭建博客hexo使用next主题、备份hexo源文件的参考资料]]></title>
+    <url>%2F2019%2F10%2F02%2F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2hexo%E4%BD%BF%E7%94%A8next%E4%B8%BB%E9%A2%98%E3%80%81%E5%A4%87%E4%BB%BDhexo%E6%BA%90%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.html</url>
+    <content type="text"><![CDATA[首先，搭建这个博客耗时不短。从2019-09-29 17:32:42开始看到这篇博客，打算自己搞一个的时候，到实现hexo源文件备份功能，2019-10-02 14:11:46，花了不少的时间。 其次，还有一点细节上的问题，比如嵌入pdf这个功能，现在的嵌入效果还不好看，还有两个滚动条。 最后，一个博客最重要的是内容。内容素材上的丰富，更新博客的频率，在博客功能上，比如图片、视频、公式的插入上都还有很大的空间。 给出我在搭建这个博客，主题美化，以及实现备份博客源文件用到的博文的参考链接。 最快的搭建流程参考： 【目录】Hexo+NexT搭建博客拥抱舒爽 | EnjoyToShare Coding+Github双服务器托管Hexo | EnjoyToShare Git命令手动备份Hexo博客源文件 | EnjoyToShare 自动备份Hexo博客源文件 | EnjoyToShare 中间遇到问题，也参考的一些博客: Hexo博客Next7.X版本主题配置 | 派 | Pyker Git管理多个远程仓库（GitHub和Coding） - 在努力！ - CSDN博客 hexo new创建文章自动用vscode打开 - Mumu’s Blogs - CSDN博客 Hexo博客搭建与个性化 | s0mE 补充：在使用needmoreshare时，一开始分享到微信，生成的二维码会被来比力的输入框给挡住，把iconStyle设置为default就可以避开这个问题了。 1234postbottom: enable: true options: iconStyle: default 补充2:测试一下公式性能 示例一： 1234567$$\begin&#123;aligned&#125;a &amp;= b + c \\ &amp;= d + e + f + g \\ &amp;= h + i\end&#123;aligned&#125;$$ a=b+c=d+e+f+g=h+i\begin{aligned} a &amp;= b + c \\ &amp;= d + e + f + g \\ &amp;= h + i \end{aligned} a​=b+c=d+e+f+g=h+i​ 示例二： 1$state \overset&#123;NN&#125;&#123;\rightarrow&#125;\left\&#123; \begin&#123;aligned&#125; &amp;action1 \_ value \\ &amp;action2 \_ value \\ &amp;...\end&#123;aligned&#125; \right.$ state→NN{action1_valueaction2_value...state \overset{NN}{\rightarrow}\left\{ \begin{aligned} &amp;action1 \_ value \\ &amp;action2 \_ value \\ &amp;...\end{aligned} \right. state→NN⎩⎪⎨⎪⎧​​action1_valueaction2_value...​ 示例三： 12When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are$$x = &#123;-b \pm \sqrt&#123;b^2-4ac&#125; \over 2a&#125;.$$ When a≠0a \ne 0a​=0, there are two solutions to (ax^2 + bx + c = 0) and they are x=−b±b2−4ac2a.x = {-b \pm \sqrt{b^2-4ac} \over 2a}. x=2a−b±b2−4ac​​.]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Device-Free Gesture Tracking Using Acoustic Signals]]></title>
+    <url>%2F2019%2F10%2F01%2Ftest.html</url>
+    <content type="text"><![CDATA[Device-Free Gesture Tracking Using Acoustic Signals]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+</search>
