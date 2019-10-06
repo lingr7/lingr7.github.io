@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[非技术也能看懂的NLP入门科普]]></title>
+    <url>%2F2019%2F10%2F06%2F%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%B9%9F%E8%83%BD%E7%9C%8B%E6%87%82%E7%9A%84NLP%E5%85%A5%E9%97%A8%E7%A7%91%E6%99%AE.html</url>
+    <content type="text"><![CDATA[测试语雀的嵌入pdf和开放下载功能。 语雀的功能非常的强大，所以我想语雀确实应该成为一个写博客的好地方，比起博客园和自建的博客功能要丰富。 个人站点也可以嵌入。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[搭建博客及主要的博客发布平台]]></title>
     <url>%2F2019%2F10%2F06%2F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%8F%8A%E4%B8%BB%E8%A6%81%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E5%B9%B3%E5%8F%B0.html</url>
     <content type="text"><![CDATA[使用的是典型的github+hexo+next配置。 网络上有许多搭建这样的个人站点的博客分享。自己搭建的博客最大的问题，就是SEO的效果不好。目前三个主要的可以写博客内容的地方。 博客园、语雀和个人站。其中，博客园的SEO是最好的，自己的博客站是自由定制的，语雀的功能是最为丰富的。 所以博客园依然会是博客更新的主力站点。但是必然也会因为三个平台的原因造成彼此之间不同步，尤其是博客内容会更新的情况下。 先给出我搭建个人博客站点过程中，写下的博文： 搭建博客 hexo 使用 next 主题、备份 hexo 源文件的参考资料 | 离 | Lingr7 theme-hexo-pdf 使用技巧 ---- 解决 hexo-pdf 文件显示不全的问题 | 离 | Lingr7 hexo+next 公式支持 — 采用 Katex | 离 | Lingr7 在另一台电脑上打开备份的 hexo 博客静态源文件 | 离 | Lingr7 git 本地仓库关联多个 remote----- 用本地一个分支向不同 remote 不同分支推送代码 | 离 | Lingr7 我的个人博客站点是：https://lingr7.coding.me 我的语雀知识库地址是：https://www.yuque.com/ligong/blog 我的博客园地址是：lingr7 - 博客园 https://www.cnblogs.com/lingr7/ 目前主要托管在腾讯开发者平台上，github上的主要是起一个备份的作用，响应速度还是腾讯的快。]]></content>

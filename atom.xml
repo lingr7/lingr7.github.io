@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lingr7.github.io/"/>
-  <updated>2019-10-06T04:32:24.338Z</updated>
+  <updated>2019-10-06T04:52:44.559Z</updated>
   <id>https://lingr7.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>非技术也能看懂的NLP入门科普</title>
+    <link href="https://lingr7.github.io/2019/10/06/%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%B9%9F%E8%83%BD%E7%9C%8B%E6%87%82%E7%9A%84NLP%E5%85%A5%E9%97%A8%E7%A7%91%E6%99%AE.html"/>
+    <id>https://lingr7.github.io/2019/10/06/非技术也能看懂的NLP入门科普.html</id>
+    <published>2019-10-06T04:51:07.000Z</published>
+    <updated>2019-10-06T04:52:44.559Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>搭建博客及主要的博客发布平台</title>
